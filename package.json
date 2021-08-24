@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest __tests__",
+    "test": "node __tests__/generator.js",
     "dev": "npx jest __tests__ --watch"
   },
   "author": "Christian Landgren",
